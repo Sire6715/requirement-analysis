@@ -75,7 +75,59 @@ It is a process used to determine the needs and expectations of a new product. I
 - **Security**: Ensure data encryption, secure login, and protect against common vulnerabilities.  
 - **Scalability**: The system should be able to scale horizontally to handle increased traffic.  
 - **Usability**: The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks.  
-- **Reliability**: The system should have an uptime of 99.9% and recover quickly from any failures.  
+- **Reliability**: The system should have an uptime of 99.9% and recover quickly from any failures. 
+
+# Use Case Diagrams
+## Use Case Diagrams 📊
+
+**🎯 Objective:**  
+Visual representation of interactions between users and the system.
+
+---
+
+### 🤔 What are Use Case Diagrams?
+
+Use case diagrams show how different users (**actors**) interact with the system to achieve specific goals (**use cases**).
+
+---
+
+### 🛠️ Creating Use Case Diagrams
+
+1. **Identify actors**  
+   _Examples: Guest, Registered User, Admin_
+
+2. **Define use cases**  
+   _Examples: Search properties, Book property, Manage listings_
+
+3. **Draw interactions**  
+   Link actors to relevant use cases to show how they interact.
+
+---
+
+### ✅ Benefits of Use Case Diagrams
+
+- Provide a clear visual representation of system functionalities.
+- Help in identifying and organizing system requirements.
+- Facilitate communication among stakeholders and the development team.
+
+# case diagram for the booking system
+![System Architecture](./bms.PNG)
+
+---
+
+## 🧩 System Components Explained
+
+- **User**: Books via mobile or web platforms.
+- **Staff**: Handles internal tasks and operations.
+- **CDN**: Caches static assets (like images, scripts) to improve loading speed.
+- **Public API**: Manages external requests and routes them to appropriate services.
+- **Internal API**: Handles staff-only operations; secured with VPN access.
+- **Hotel Service**: Provides hotel and room information to users.
+- **Rate Service**: Supplies dynamic and future pricing for rooms.
+- **Booking Service**: Manages booking processes and status tracking.
+- **Payment Service**: Handles secure customer payment transactions.
+- **Staff Management Service**: Dedicated to internal staff for managing hotel operations.
+
 
 # Acceptance Criteria ✅
 

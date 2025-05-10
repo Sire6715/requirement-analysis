@@ -110,7 +110,7 @@ Use case diagrams show how different users (**actors**) interact with the system
 - Help in identifying and organizing system requirements.
 - Facilitate communication among stakeholders and the development team.
 
-# case diagram for the booking system
+# Case Diagram For A Hotel Booking System
 ![System Architecture](./bms.PNG)
 
 ---
